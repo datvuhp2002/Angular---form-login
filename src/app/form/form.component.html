@@ -1,0 +1,16 @@
+<figure class = "p-3 w-80 rounded bg-white absolute top-20 z-10 wrapper">
+    <h1 class="text-center mx-auto font-bold text-3xl mb-2">Đăng nhập</h1>
+    <div class="text-center mx-auto text-xs mb-4"><p>Nếu bạn chưa có tài khoản? <a href="#" class="text-purple-500 hover:decoration-inherit hover:underline">Tạo tài khoản mới</a></p></div>
+    <form class="flex flex-col mx-auto flex-shrink-0">
+      <label class="p-1 text-sm mb-1" for="Email">Email</label>
+      <input required type="email" name="" id="Email" class="form-input p-1 text-sm mb-2" placeholder="email"(change)="getValue($event)">
+      <label class="p-1 text-sm  mb-1" for="">Mật khẩu</label>
+      <input required type="password" placeholder="Mật khẩu" class="p-1 mb-1 text-sm ">
+      <a href="#" class="text-sm p-1 mb-4 hover:underline">Quên mật khẩu?</a>
+      <button class="bg-violet-500 text-white text-sm font-bold p-1 rounded-2xl mb-3 hover:bg-violet-600 active:bg-violet-700" type="submit" (click)="submit()">Đăng nhập</button>
+      <div class="text-center mx-auto text-sm mb-3">hoặc</div>
+    </form>
+    <app-button></app-button>
+    <button class="absolute top-1 right-2 w-3" (click)="showModal.ShowDialog = false"  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg></button>
+</figure>
+  

@@ -1,0 +1,7 @@
+<app-form *ngIf="showModal.ShowDialog"></app-form>
+<div class="fade" *ngIf="showModal.ShowDialog" (click) = "showModal.ShowDialog = false" ></div>
+<div class="relative top-3 flex align-middle justify-center">
+
+    <button class="bg-violet-500 text-white font-bold p-1 rounded-2xl w-40 hover:bg-violet-600 active:bg-violet-700  " (click)="showModal.ShowDialog = true">Đăng nhập</button>
+</div>
+    

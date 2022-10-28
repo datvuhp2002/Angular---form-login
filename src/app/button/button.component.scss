@@ -1,0 +1,22 @@
+button{
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    svg{
+        display: inline-block;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+    }
+}
+.facebook-btn svg{
+    height: 30px;
+}
+.google-btn {
+    border: 1px solid;
+    svg{
+        height: 25px;
+    }
+}
