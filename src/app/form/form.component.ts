@@ -18,6 +18,7 @@ export class FormComponent implements OnInit {
     if(this.inputEmail.length !== null)
       return true
     else{
+      
       return false;
     }
   }
